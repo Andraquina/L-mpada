@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.lightoff {
+    background-color: black;
+    transition: background-color 2s ease-out;
+    transition-duration: 2s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    transition-property: background-color;
+}
+
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#container img {
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5%;
+}
+
+
+#container button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+
+.btn{
+    border: none;
+    color: white;
+    padding: 40px 60px;
+    font-size: 50px;
+    text-align: start;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px #000;
+}
+
